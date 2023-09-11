@@ -1,20 +1,21 @@
-.chat-message.chatgpt{
-  background-color: #444654;
-}
-
-.chat-message-center{
+/* Combine regras para .chat-message.chatgpt e .message */
+.chat-message.chatgpt,
+.message {
   max-width: 640px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
   display: flex;
-
   padding: 12px;
-
   padding-left: 24px;
   padding-right: 24px;
 }
 
-.message{
+/* Defina background-color separadamente para .chat-message.chatgpt */
+.chat-message.chatgpt {
+  background-color: #444654;
+}
+
+/* Ajuste o padding para .message */
+.message {
   padding-left: 40px;
   padding-right: 40px;
 }
